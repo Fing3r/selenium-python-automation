@@ -26,6 +26,7 @@ def test_valid_login(driver):
 def test_invalid_login(driver):
     login_page = LoginPage(driver)
     login_page.login("wronguser", "wrongpass")
+    driver.implicitly_wait(5)  # Wait
     error_message = driver.find_element(By.ID, "flash").text
     assert "Your username is invalid!" in error_message
     logging.info("Invalid login test passed")
