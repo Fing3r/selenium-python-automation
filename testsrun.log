@@ -1,0 +1,6 @@
+2025-04-10 02:45:18:INFO:Valid login test passed
+2025-04-10 02:45:25:INFO:Invalid login test passed
+2025-04-10 02:50:50:INFO:Valid login test passed successfully in {elapsed_time:.2f} seconds
+2025-04-10 02:50:57:INFO:Invalid login test passed successfully in {elapsed_time:.2f} seconds
+2025-04-10 03:03:47 - INFO - Valid login test passed successfully in 0.45
+2025-04-10 03:03:54 - INFO - Invalid login test passed in 0.47
